@@ -1,0 +1,34 @@
+$secondary-color: #E9C765;
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(116.82deg, #D4BB00 0%, rgba(173, 153, 0, 0.807292) 52.08%, rgba(255, 225, 0, 0.63) 100%);
+}
+
+.main 
+{
+    position: absolute;
+    width: 100%;
+    padding: 0;
+    top: 0;
+    left: 0;
+    display: flex;
+    overflow: hidden;
+
+    .logo-g
+    {
+        position: absolute;
+        top: -40px;
+        left: 375px;
+        z-index: -1;
+    }
+}

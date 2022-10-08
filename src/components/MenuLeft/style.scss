@@ -1,0 +1,88 @@
+.menu-left
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100vh;
+    background: #E7CF1C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+    background: linear-gradient(180deg, rgba(231, 207, 28, 0.33) 0%, #E7CF1C 100%);
+    box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+
+    img 
+    {
+        position: absolute;
+        top: 0;
+        left: 86px;
+    }
+
+    ul 
+    {
+        position: absolute;
+        width: 100%;
+        top: 200px;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+
+        li 
+        {
+            position: relative;
+            width: 100%;
+            display: flex;
+            list-style: none;
+
+            &:hover
+            {
+                background: #ECE840;
+                border-radius: 10px;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                font-size: 1.3rem;
+                overflow: hidden;
+
+                span
+                {
+                    color: rgba(0, 0, 0, 0.25);
+                }
+            }
+
+            a 
+            {
+                position: relative;
+                display: block;
+                width: 100%;
+                display: flex;
+                text-decoration: none;
+                
+                span 
+                {
+                    position: relative;
+                    display: block;
+                    height: 60px;
+                    line-height: 60px;
+                    white-space: nowrap;
+                    color: #eee;
+                    font-size: 1.2rem;
+                    font-weight: 800;
+
+                }
+                
+                svg 
+                {
+                    position: relative;
+                    display: block;
+                    height: 30px;
+                    min-width: 80px;
+                    line-height: 60px;
+                    text-align: center;
+                    top: 15px;
+                }
+            }
+        }
+    }
+}
